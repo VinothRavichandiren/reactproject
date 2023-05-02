@@ -1,0 +1,125 @@
+.image{
+    width: 100%;
+    height: 350px;
+}
+/* slider */
+.country{
+    font-weight: 900;
+}
+.text-success{
+    font-size:50px ;
+}
+.carousel-caption{
+    margin-bottom:5% ;
+}
+.btn4{
+    border-radius: 15px;
+    background-color: crimson;
+    padding: 10px;
+    color: aliceblue;
+}
+
+
+/* cards */
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: static;
+    padding: 3%;
+    background-color: rgb(248, 192, 129);
+}
+
+.card{
+    width: 300px;
+    margin: 15px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    height: 340px;
+    transition: transform .2s;
+}
+.card:hover{
+    box-shadow: 5px 10px 18px rgb(252, 88, 88);
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.card-img{
+    width: 100%;
+    height: 205px;
+}
+.myimg{
+    height: 180px;
+}
+.card-body{
+    text-align: center;
+    margin-top: -10px;
+    
+}
+.card-footer{
+    text-align: center;
+    padding-top: 0%;
+}
+.btn1{
+    padding: 7px 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    background-color:rgb(245, 12, 81);
+    color: white;
+}
+/* counter */
+.colrow{
+    padding-top: 5%;
+    width: 100%;
+    color: #fff;
+    height: 300px;
+}
+#roow{
+    background-image: url('../IMAGE/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1.0;
+}
+.col-sm-3 h1{
+    font-size: 50px;
+}
+.col-sm-3 hr{
+    width: 30%;
+    height: 5px;
+    background: black;
+    margin: 10px auto;
+}
+
+/* review */
+.myimg1{
+    border-radius: 40%;
+    width: 50%;
+    margin-left: 25%;
+}
+#reviewcard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: static;
+    padding: 1%;
+    
+}
+.myrev:hover{
+    box-shadow: 5px 10px 18px rgb(19, 18, 18);
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+.myrev{
+    width: 270px;
+    margin: 10px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    height: 400px;
+}
+.card-body i{
+    color: gold;
+}

@@ -1,0 +1,44 @@
+/* navbar */
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+}
+#mynavbar{
+    margin-left: 18%;
+}
+.nav-item{
+    margin-left: 20px;
+    color: beige;
+}
+.nav-link{
+    color: aliceblue;
+    font-size: 20px;
+}
+.nav-item:hover{
+    text-decoration: underline rgb(245, 5, 37) 3px;
+}
+/* our latest trip */
+
+#trip{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline rgb(90, 2, 2);
+    font-weight: bolder;
+    font-size: 60px;
+}
+.image{
+    height: 400px;
+}
+.triprow{
+ background-color: rgb(156, 243, 243);
+}
+.btn{
+    color: #fcfcfc;
+   
+}
+.btn i{
+    font-size: 30px;
+}
+.btn:hover{
+    color: beige;
+    background-color: crimson;
+}
